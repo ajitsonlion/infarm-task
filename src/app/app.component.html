@@ -1,0 +1,4 @@
+<div fxLayout="row" fxLayoutAlign="space-between stretch">
+  <app-users fxFlex="10" [users]="users$ |async"></app-users>
+  <app-timeline  fxFlex [data]="usersCalendar$|async"></app-timeline>
+</div>
